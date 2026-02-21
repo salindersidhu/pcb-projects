@@ -6,6 +6,10 @@
 
 Repository of personal PCB and electronics designs created in KiCad. Includes schematics, board layouts, revisions, and supporting documentation for various hardware projects ranging from prototypes to finalized builds.
 
+## Projects
+
+- [Stereo Speaker Amp](stereo-speaker-amp/) – A compact stereo amplifier using the TDA2822M IC.
+
 ## Prerequisite Software
 
 | Software       | Version   |
