@@ -2,11 +2,11 @@
 
 [![License: Apache](https://img.shields.io/badge/license-APACHE-brightgreen.svg?style=for-the-badge)](/LICENSE.md)
 
+**Rev:** 3.0
+
 This is my custom stereo amplifier PCB project. It’s designed as a compact, full-range stereo amplifier using the **TDA2822M** IC, with a **50k dual-gang potentiometer** for volume control and an **aux input** for connecting external audio sources.  
 
 ![Stereo Amp Rotating View](3d/stereo-speaker-amp.gif)
-
-[Interactive 3D Model](3d/stereo-speaker-amp.glb)
 
 ## Features
 
