@@ -17,8 +17,8 @@ Repository of personal PCB and electronics designs created in KiCad. Includes sc
 
 ### [Stereo Speaker Amp](/stereo-speaker-amp/)
 
-- A compact stereo amplifier using the TDA2822M IC.
+- A compact full range stereo amplifier PCB based on the TDA2822M IC.
 
 ### [USB PD Trigger Module](/usb-pd-module/)
 
-- A USB-C power delivery trigger module.
+- A configurable USB-C Power Delivery trigger module.
