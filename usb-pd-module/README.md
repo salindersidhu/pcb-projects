@@ -4,7 +4,7 @@
 
 **Rev:** 4.0
 
-A compact, configurable USB-C Power Delivery trigger module based on the CH221K, designed for safe and reliable high-voltage PD negotiation with controlled output enable.
+A compact, configurable USB-C Power Delivery trigger module based on the CH221K, designed for safe and reliable voltage PD negotiation with controlled output enable.
 
 ![USB PD Module Rotating View](3d/usb-pd-module.gif)
 
@@ -33,7 +33,7 @@ This ensures:
 
 ### VGS Protection
 
-A gate clamp diode (1N4148W) protects the MOSFET against excessive negative VGS during high-voltage (20V) operation.
+A gate clamp diode (1N4148W) protects the MOSFET against excessive negative VGS during 20V voltage operation.
 
 ### PD Configuration
 
