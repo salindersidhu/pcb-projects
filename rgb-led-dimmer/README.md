@@ -6,7 +6,7 @@
 
 A compact analog RGB LED dimmer PCB using independent PWM control for each color channel. The design uses three 555 timer circuits to generate adjustable PWM signals that drive MOSFET switches for smooth brightness control of RGB LEDs.
 
-![RGB LED Dimmer Rotating View](3d/rgb_led_dimmer.gif)
+![RGB LED Dimmer Rotating View](3d/rgb-led-dimmer.gif)
 
 ## Features
 
