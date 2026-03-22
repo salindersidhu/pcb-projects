@@ -3156,12 +3156,6 @@
 		(uuid "4fb4c497-7477-4ee1-8187-6ca3de8da499")
 	)
 	(junction
-		(at 116.84 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50398a49-773e-4532-a1c3-cd5885fe65ea")
-	)
-	(junction
 		(at 129.54 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3423,23 +3417,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 43.18) (xy 116.84 45.72)
+			(xy 116.84 41.91) (xy 116.84 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "65d83fb1-a580-4e7a-912d-d14ddaf2cdb7")
-	)
-	(wire
-		(pts
-			(xy 132.08 43.18) (xy 116.84 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6627ada6-2b09-4de9-8515-699cc7680d27")
 	)
 	(wire
 		(pts
@@ -3673,16 +3657,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 41.91) (xy 116.84 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5d9ca57-023f-4e82-8f41-1cd8007cb698")
-	)
-	(wire
-		(pts
 			(xy 111.76 105.41) (xy 111.76 110.49)
 		)
 		(stroke
@@ -3820,6 +3794,50 @@
 		(uuid "29ca827f-f934-42aa-8c9d-3c478d3dc0eb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 116.84 23.5034 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LDO_OUT"
+		(shape input)
+		(at 111.76 102.87 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4799abd7-b800-4c09-9e6f-c2750ccf80d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 91.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LDO_OUT"
+		(shape input)
+		(at 132.08 43.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a299548-b1f5-451a-8368-4a604a1b3107")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.08 31.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4843,7 +4861,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "10k"
 			(at 126.492 47.244 0)
 			(effects
 				(font
