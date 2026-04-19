@@ -6,7 +6,7 @@
 
 A compact, configurable USB-C Power Delivery trigger module based on the CH221K, designed for safe and reliable voltage PD negotiation with a simple and robust power output.
 
-![USB PD Module Rotating View](3d/usb-pd-module.gif)
+![USB PD Module Rotating View](usb-pd-module.gif)
 
 ## Features
 - USB-C Power Delivery trigger based on CH221K

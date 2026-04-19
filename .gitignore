@@ -50,3 +50,6 @@ fp-info-cache
 *.GBR
 *.drl
 *.gbr
+
+# Gerbers directory
+Gerbers/
