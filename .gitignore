@@ -53,3 +53,6 @@ fp-info-cache
 
 # Gerbers directory
 Gerbers/
+
+# KiCad history/backup directory
+.history/

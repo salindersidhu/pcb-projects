@@ -6,7 +6,7 @@
 
 This is a compact, full range stereo amplifier PCB based on the TDA2822M audio power amplifier IC. The design provides clean, low noise stereo amplification with onboard analog volume control and a standard 3.5mm auxiliary input.
 
-![Stereo Amp Rotating View](3d/stereo-speaker-amp.gif)
+![Stereo Amp Rotating View](stereo-speaker-amp.gif)
 
 ## Features
 
