@@ -4,14 +4,14 @@
 
 ## Overview
 
-Repository of personal PCB and electronics designs created in KiCad. Includes schematics, board layouts, revisions, and supporting documentation for various hardware projects ranging from prototypes to finalized builds.
+Repository of personal PCB and electronics designs created in KiCad. Includes schematics, board layouts, revisions, and supporting documentation for various hardware projects ranging from prototypes to finalized builds. Each project is self-contained with its own custom symbols, footprints, and 3D models.
 
 ## Prerequisite Software
 
 | Software       | Version   |
 | :------------- | :-------- |
 | Git            | 2.20.1+   |
-| Kicad          | 9.0+      |
+| Kicad          | 10.0+     |
 
 ## Projects
 
