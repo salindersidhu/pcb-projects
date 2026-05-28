@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "USB PD Module Schematic")
-		(date "2026-03-21")
-		(rev "4.5")
+		(date "2026-05-27")
+		(rev "4.6")
 		(company "Salinder Sidhu")
 	)
 	(lib_symbols

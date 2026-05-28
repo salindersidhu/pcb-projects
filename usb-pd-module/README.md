@@ -2,7 +2,7 @@
 
 [![License: Apache](https://img.shields.io/badge/license-APACHE-brightgreen.svg?style=for-the-badge)](/LICENSE.md)
 
-**Rev:** 4.5
+**Rev:** 4.6
 
 A compact, configurable USB-C Power Delivery trigger module based on the CH221K, designed for safe and reliable voltage PD negotiation with a simple and robust power output.
 
