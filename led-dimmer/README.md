@@ -6,7 +6,7 @@
 
 A compact analog LED dimmer PCB using a 555 timer to generate an adjustable PWM signal that drives a logic-level MOSFET for smooth LED brightness control.
 
-![RGB LED Dimmer Rotating View](rgb-led-dimmer.gif)
+![RGB LED Dimmer Rotating View](led-dimmer.gif)
 
 ## Features
 
