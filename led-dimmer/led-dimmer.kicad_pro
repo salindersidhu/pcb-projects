@@ -473,7 +473,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "rgb-led-dimmer.kicad_pro",
+    "filename": "led-dimmer.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -648,18 +648,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "rgb-led-dimmer.kicad_sch",
-        "name": "rgb-led-dimmer",
+        "filename": "led-dimmer.kicad_sch",
+        "name": "led-dimmer",
         "uuid": "97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#FLG2",
     "variants": []
   },
   "sheets": [
     [
       "97f4d0d2-49dd-4867-ad6b-0ece5467e23e",
-      "rgb-led-dimmer"
+      "led-dimmer"
     ]
   ],
   "text_variables": {},

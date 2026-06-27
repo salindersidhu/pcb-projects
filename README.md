@@ -23,6 +23,6 @@ Repository of personal PCB and electronics designs created in KiCad. Includes sc
 
 - A configurable USB-C Power Delivery trigger module.
 
-### [RGB LED Dimmer](/rgb-led-dimmer/)
+### [RGB LED Dimmer](/led-dimmer/)
 
-- A compact analog PWM dimmer for independently controlling RGB LED brightness using 555 timers and MOSFET switching.
+- A compact analog PWM dimmer for independently controlling LED brightness using a 555 timer and MOSFET switching.
