@@ -15,14 +15,14 @@ Repository of personal PCB and electronics designs created in KiCad. Includes sc
 
 ## Projects
 
-### [Stereo Speaker Amp](/stereo-speaker-amp/)
+### [Stereo Amplifier TDA2822](/stereo-amplifier-tda2822/)
 
-- A compact full range stereo amplifier PCB based on the TDA2822M IC.
+- A compact full-range stereo amplifier PCB based on the TDA2822M audio power amplifier IC.
 
 ### [USB PD Trigger Module](/usb-pd-module/)
 
-- A configurable USB-C Power Delivery trigger module.
+- A configurable USB-C Power Delivery trigger module for negotiating fixed output voltages.
 
 ### [RGB LED Dimmer](/led-dimmer/)
 
-- A compact analog PWM dimmer for independently controlling LED brightness using a 555 timer and MOSFET switching.
+- A compact analog PWM LED dimmer using a 555 timer and MOSFET switching for brightness control.

@@ -1,16 +1,16 @@
-# Stereo Speaker Amp
+# Stereo Amplifier TDA2822
 
 [![License: Apache](https://img.shields.io/badge/license-APACHE-brightgreen.svg?style=for-the-badge)](/LICENSE.md)
 
 **Rev:** 3.0
 
-This is a compact, full range stereo amplifier PCB based on the TDA2822M audio power amplifier IC. The design provides clean, low noise stereo amplification with onboard analog volume control and a standard 3.5mm auxiliary input.
+This project is a compact, full-range stereo amplifier PCB based on the TDA2822M audio power amplifier IC. The design provides clean, low-noise stereo amplification with onboard analog volume control and a standard 3.5 mm auxiliary input.
 
-![Stereo Amp Rotating View](stereo-speaker-amp.gif)
+![Stereo Amplifier TDA2822 Rotating View](stereo-amplifier-tda2822.gif)
 
 ## Features
 
-- **Amplifier IC:** TDA2822M (dual-channel audio power amplifier)
+- **Amplifier IC:** Single TDA2822M (dual-channel audio power amplifier)
 - **Configuration:** Stereo (non-bridge mode)
 - **Volume Control:** 50kΩ dual-gang potentiometer
 - **Input:** 3.5mm TRS auxiliary (line-level)
@@ -43,7 +43,7 @@ This is a compact, full range stereo amplifier PCB based on the TDA2822M audio p
 
 ### Amplifier Stage
 
-- TDA2822M configured in stereo mode
+- Single TDA2822M configured in standard stereo (single-ended) mode
 - 100µF feedback capacitors for AC gain setting and low-frequency response control
 - Proper input biasing and decoupling to minimize noise
 
@@ -63,7 +63,7 @@ This is a compact, full range stereo amplifier PCB based on the TDA2822M audio p
 
 ## Use Cases
 
-- Desktop speaker systems  
-- DIY Bluetooth speaker builds (with external BT module)  
-- Small embedded audio projects  
-- Educational analog amplifier projects  
+- Desktop speaker systems
+- DIY Bluetooth speaker builds (with external Bluetooth module)
+- Educational analog electronics projects
+- General-purpose audio amplification

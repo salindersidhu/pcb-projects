@@ -473,7 +473,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "stereo-speaker-amp.kicad_pro",
+    "filename": "stereo-amplifier-tda2822.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -684,8 +684,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "stereo-speaker-amp.kicad_sch",
-        "name": "stereo-speaker-amp",
+        "filename": "stereo-amplifier-tda2822.kicad_sch",
+        "name": "stereo-amplifier-tda2822",
         "uuid": "831768ba-6566-4758-b943-8082905566c3"
       }
     ],
@@ -695,7 +695,7 @@
   "sheets": [
     [
       "831768ba-6566-4758-b943-8082905566c3",
-      "stereo-speaker-amp"
+      "stereo-amplifier-tda2822m"
     ]
   ],
   "text_variables": {},
