@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "B2B-XH-A") (type "KiCad") (uri "${KIPRJMOD}/symbols/B2B-XH-A.kicad_sym") (options "") (descr ""))
+	(lib (name "SJ1-3513N") (type "KiCad") (uri "${KIPRJMOD}/symbols/SJ1-3513N.kicad_sym") (options "") (descr ""))
+	(lib (name "TDA2822M") (type "KiCad") (uri "${KIPRJMOD}/symbols/TDA2822M.kicad_sym") (options "") (descr ""))
+)

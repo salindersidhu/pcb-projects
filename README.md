@@ -19,6 +19,10 @@ Repository of personal PCB and electronics designs created in KiCad. Includes sc
 
 - A compact full-range stereo amplifier PCB based on the TDA2822M audio power amplifier IC.
 
+### [Stereo Amplifier Dual BTL TDA2822](/stereo-amplifier-dual-btl-tda2822/)
+
+- A stereo amplifier PCB using two TDA2822M ICs in BTL configuration (one per channel) for higher output power and improved efficiency.
+
 ### [USB PD Trigger Module](/usb-pd-module/)
 
 - A configurable USB-C Power Delivery trigger module for negotiating fixed output voltages.
