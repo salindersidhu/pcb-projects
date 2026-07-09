@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Stereo Amplifier Dual BTL TDA2822 Schematic")
-		(date "2026-07-01")
-		(rev "1.0")
+		(date "2026-07-08")
+		(rev "2.0")
 		(company "Salinder Sidhu")
 	)
 	(lib_symbols
@@ -3856,7 +3856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 109.728 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -3938,7 +3938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 28.702 118.11 90)
 			(hide yes)
 			(show_name no)
@@ -4019,7 +4019,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:CAPRR500W50L730T450H950"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 89.2048 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -4848,7 +4848,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 66.3448 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5007,7 +5007,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 33.782 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -5324,7 +5324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 28.702 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -5708,7 +5708,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 65.532 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -5789,7 +5789,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:CAPRR500W50L730T450H950"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 89.2048 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6504,7 +6504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 141.478 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -6664,7 +6664,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 66.3448 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7108,7 +7108,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "22u"
 			(at 82.55 120.2689 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7119,7 +7119,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 77.7748 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -7424,7 +7424,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "4.7u"
 			(at 41.656 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7652,7 +7652,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "4.7u"
 			(at 54.356 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7745,7 +7745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 128.778 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -8222,7 +8222,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220u"
+		(property "Value" "470u"
 			(at 105.41 118.4909 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8233,7 +8233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 102.5652 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -8315,7 +8315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 97.028 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -8463,7 +8463,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220u"
+		(property "Value" "470u"
 			(at 105.41 84.2009 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8474,7 +8474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 102.5652 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8545,7 +8545,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "22u"
 			(at 82.55 85.9789 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8556,7 +8556,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 77.7748 80.01 0)
 			(hide yes)
 			(show_name no)
