@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Stereo Amplifier Dual BTL TDA2822 Schematic")
-		(date "2026-07-08")
+		(date "2026-07-09")
 		(rev "2.0")
 		(company "Salinder Sidhu")
 	)
@@ -2592,7 +2592,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Power Supply Input and Filtering"
+	(text_box "Power Supply Input"
 		(exclude_from_sim no)
 		(at 113.03 58.42 0)
 		(size 44.45 39.37)
