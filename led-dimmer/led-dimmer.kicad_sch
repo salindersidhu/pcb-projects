@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LED Dimmer Schematic")
-		(date "2026-06-28")
+		(date "2026-07-20")
 		(rev "1.0")
 	)
 	(lib_symbols
@@ -1997,7 +1997,7 @@
 	(text_box "Power Input"
 		(exclude_from_sim no)
 		(at 16.51 77.47 0)
-		(size 66.04 27.94)
+		(size 67.31 27.94)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
