@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "Stereo Amplifier TDA2822 PCB")
-		(date "2026-07-09")
+		(date "2026-08-01")
 		(rev "3.0")
 		(company "Salinder Sidhu")
 	)
@@ -4658,7 +4658,7 @@
 		(property "Reference" "RV1"
 			(at 2.5 -5.8 0)
 			(layer "F.SilkS")
-			(uuid "cb0fc7a4-d213-4549-9649-3cd82a11a2f7")
+			(uuid "7844d296-22bb-4a71-8f08-e07d33741b10")
 			(effects
 				(font
 					(size 1 1)
@@ -4669,7 +4669,7 @@
 		(property "Value" "50k"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "827d08cc-8154-4d86-82c8-ecb244c2289c")
+			(uuid "8a7fe8d8-e17e-49d3-a138-91f1ac2d8c25")
 			(effects
 				(font
 					(size 1 1)
@@ -4682,7 +4682,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "052f29d5-e10b-4513-95b1-7ec177673c6e")
+			(uuid "684a1283-6f70-4a36-9afb-f23e8c5a3cfe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4695,7 +4695,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f40cf2b1-ee7c-4417-9ff8-6d76b2c62a5b")
+			(uuid "648a4ae3-6c00-478f-8028-c03b8f9ac63e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15663,6 +15663,15 @@
 		(uuid "d363eb04-8549-4e68-9f75-e2380744a380")
 	)
 	(via
+		(at 145.5 102.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "05960a15-6853-4db3-994f-14023d2eed9f")
+	)
+	(via
 		(at 156.5 93.5)
 		(size 0.6)
 		(drill 0.3)
@@ -15690,6 +15699,15 @@
 		(uuid "0b97756c-3212-4de0-92a9-d267ea7a2eb6")
 	)
 	(via
+		(at 133.5 113.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "0f57c397-2561-478e-b30e-d555ae99e934")
+	)
+	(via
 		(at 136 102.5)
 		(size 0.6)
 		(drill 0.3)
@@ -15707,6 +15725,15 @@
 		(filling no)
 		(net "GND")
 		(uuid "0f84c5f5-eb79-447f-bd48-46ce10376001")
+	)
+	(via
+		(at 136.5 109)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "0fad5820-ef79-4aec-9a5b-7727de11b7bb")
 	)
 	(via
 		(at 137 94)
@@ -15808,6 +15835,15 @@
 		(uuid "23853c33-5030-4670-bd0c-9cf5d6f222d6")
 	)
 	(via
+		(at 136.5 118.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "24384bd6-1f76-4d16-b4eb-867f95216cf7")
+	)
+	(via
 		(at 136 94)
 		(size 0.6)
 		(drill 0.3)
@@ -15833,6 +15869,24 @@
 		(free yes)
 		(net "GND")
 		(uuid "29f787a5-d3ea-4862-80a0-8ede4e5d2357")
+	)
+	(via
+		(at 135.5 109)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "2a9d7408-356c-46db-905d-9541abca8aeb")
+	)
+	(via
+		(at 134.5 118.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "31833260-75c3-4f40-afc0-da80fcf9cd6c")
 	)
 	(via
 		(at 143.5 74.25)
@@ -15980,6 +16034,24 @@
 		(uuid "64ea5bef-23dc-4c8c-86e3-ef5f87d7e2bd")
 	)
 	(via
+		(at 132.5 113.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "67304f41-f19f-4e01-8a70-481392beff51")
+	)
+	(via
+		(at 133.5 109)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "6765c75c-6af6-41da-83bf-d3152a0296e2")
+	)
+	(via
 		(at 128.5 72)
 		(size 0.6)
 		(drill 0.3)
@@ -15987,6 +16059,15 @@
 		(free yes)
 		(net "GND")
 		(uuid "6ba699be-fcf8-4828-bc8c-f07973f4f75e")
+	)
+	(via
+		(at 135.5 113.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "6d0b9d7a-2c92-4e6a-b850-714a5b02a750")
 	)
 	(via
 		(at 155 94)
@@ -16005,6 +16086,15 @@
 		(free yes)
 		(net "GND")
 		(uuid "6eb0eaf0-2fda-4df1-aba2-2f07a37f5c9d")
+	)
+	(via
+		(at 132.5 118.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "7027bb65-906b-46c7-bf16-a626a114b7a5")
 	)
 	(via
 		(at 131.25 94.5)
@@ -16090,6 +16180,15 @@
 		(uuid "82d13ca9-53ad-4896-b50d-8bafaa13692c")
 	)
 	(via
+		(at 133.5 118.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "82dc5f9b-be83-4506-b793-da9711ad65fd")
+	)
+	(via
 		(at 158.5 74)
 		(size 0.6)
 		(drill 0.3)
@@ -16126,6 +16225,24 @@
 		(uuid "8d2b592a-372a-4af3-b24f-e86bb664a901")
 	)
 	(via
+		(at 134.5 109)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "8ee3e71f-c839-4034-9c03-055ad885fbff")
+	)
+	(via
+		(at 145.5 104.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "93abaeac-817c-40de-bd3a-0784ef53fc24")
+	)
+	(via
 		(at 162.5 103.5)
 		(size 0.6)
 		(drill 0.3)
@@ -16142,6 +16259,15 @@
 		(free yes)
 		(net "GND")
 		(uuid "95b21319-826f-4be8-a162-2f9e3026aa6d")
+	)
+	(via
+		(at 132.5 109)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "97e8a730-e760-4e94-a43b-68effffba519")
 	)
 	(via
 		(at 134.25 94.5)
@@ -16223,6 +16349,15 @@
 		(free yes)
 		(net "GND")
 		(uuid "ad324e05-ca89-4095-8d34-86a173b844f2")
+	)
+	(via
+		(at 135.5 118.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "ae81481b-dffb-4755-abe9-b51b5ba47ca3")
 	)
 	(via
 		(at 134.25 93.5)
@@ -16461,6 +16596,15 @@
 		(uuid "e2686d6a-3fcf-4af8-8fc2-50c6149121d0")
 	)
 	(via
+		(at 134.5 113.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "e28290b5-29b9-4578-a44f-35f3b4a3074b")
+	)
+	(via
 		(at 139.75 102)
 		(size 0.6)
 		(drill 0.3)
@@ -16513,6 +16657,15 @@
 		(free yes)
 		(net "GND")
 		(uuid "efd0cab9-0ad5-41fb-b85e-70cac575b73c")
+	)
+	(via
+		(at 136.5 113.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "f2f55c76-ce36-427e-a630-8a5fcc7e5942")
 	)
 	(via
 		(at 142.5 73.25)
