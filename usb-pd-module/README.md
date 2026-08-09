@@ -12,7 +12,6 @@ A compact, configurable USB-C Power Delivery trigger module based on the CH221K,
 - USB-C Power Delivery trigger based on CH221K
 - Negotiates fixed PD voltages: 5V / 9V / 12V / 15V / 20V
 - 5-position DIP switch voltage selection
-- Direct output (no MOSFET gating for improved reliability)
 - RGB LED status indicator:
   - **Red:** Standard 5V (no PD negotiation)
   - **Purple:** PD negotiated voltage active
@@ -34,7 +33,7 @@ An RGB LED is used to indicate power state:
 - **Red:** Default USB 5V (no PD contract established)  
 - **Purple:** Successful PD negotiation (selected voltage active)
 
-This provides immediate visual feedback without affecting the power path.
+This provides immediate visual feedback.
 
 ### PD Configuration
 
