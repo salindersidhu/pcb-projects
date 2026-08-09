@@ -17,9 +17,8 @@ This project is a compact stereo audio amplifier PCB based on the TDA2822 audio 
 - **Output:** AC-coupled stereo speaker outputs
 - **Power Supply:** 6–15 V DC (single supply)
 - **PCB:** Compact 2-layer PCB with solid ground plane
-- **Mixed Technology Design:**
-  - SMD resistors and ceramic capacitors
-  - Through-hole electrolytic capacitors
+- **Through-Hole Design:**
+  - Through-hole resistors and capacitors
 - **Power Filtering:**
   - 470 µF bulk supply capacitor
   - Local 0.1 µF ceramic decoupling
