@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Stereo Amplifier Dual BTL TDA2822 Schematic")
-		(date "2026-07-09")
-		(rev "2.0")
+		(date "2026-09-09")
+		(rev "2.1")
 		(company "Salinder Sidhu")
 	)
 	(lib_symbols

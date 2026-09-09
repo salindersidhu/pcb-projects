@@ -2,7 +2,7 @@
 
 [![License: Apache](https://img.shields.io/badge/license-APACHE-brightgreen.svg?style=for-the-badge)](/LICENSE.md)
 
-**Rev:** 2.0
+**Rev:** 2.1
 
 This project is a compact stereo audio amplifier PCB based on two TDA2822 audio power amplifier ICs. Each IC is configured in bridged-tied-load (BTL) mode to drive a single speaker, providing significantly higher output power than the standard stereo configuration. The design includes an onboard analog volume control, a standard 3.5 mm auxiliary input, and differential bridge outputs for left and right speakers.
 
