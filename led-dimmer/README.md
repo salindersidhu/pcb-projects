@@ -2,7 +2,7 @@
 
 [![License: Apache](https://img.shields.io/badge/license-APACHE-brightgreen.svg?style=for-the-badge)](/LICENSE.md)
 
-**Rev:** 1.1
+**Rev:** 1.2
 
 A compact analog LED dimmer PCB using a 555 timer to generate an adjustable PWM signal that drives a logic-level MOSFET for smooth LED brightness control.
 

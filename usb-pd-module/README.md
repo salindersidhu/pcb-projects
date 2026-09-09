@@ -37,7 +37,7 @@ This provides immediate visual feedback.
 
 ### PD Configuration
 
-Voltage selection is handled via a resistor ladder and DIP switch connected to the CH221K configuration input.
+Voltage selection is handled with a resistor ladder and DIP switch connected to the CH221K configuration input.
 
 ### Signal Integrity
 
