@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Stereo Amplifier TDA2822 Schematic")
-		(date "2026-08-01")
+		(date "2026-10-19")
 		(rev "3.0")
 		(company "Salinder Sidhu")
 	)
@@ -3552,7 +3552,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:JST_B2B-XH-A"
+		(property "Footprint" "external_footprints:JST_B2B-XH-A"
 			(at 133.35 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3918,7 +3918,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:CUI_SJ1-3513N"
+		(property "Footprint" "external_footprints:CUI_SJ1-3513N"
 			(at 138.43 127 0)
 			(hide yes)
 			(show_name no)
@@ -4200,7 +4200,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:JST_B2B-XH-A"
+		(property "Footprint" "external_footprints:JST_B2B-XH-A"
 			(at 127 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -4729,7 +4729,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:CAPRR500W50L730T450H950"
+		(property "Footprint" "external_footprints:CAPRR500W50L730T450H950"
 			(at 86.6648 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5687,7 +5687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:DIP762W45P254L1092H508Q8"
+		(property "Footprint" "external_footprints:DIP762W45P254L1092H508Q8"
 			(at 52.07 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6538,7 +6538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPRR500W50L730T450H950"
+		(property "Footprint" "external_footprints:CAPRR500W50L730T450H950"
 			(at 118.4148 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6620,7 +6620,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:JST_B2B-XH-A"
+		(property "Footprint" "external_footprints:JST_B2B-XH-A"
 			(at 104.14 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -6906,7 +6906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPRR500W50L730T450H950"
+		(property "Footprint" "external_footprints:CAPRR500W50L730T450H950"
 			(at 95.5548 43.18 0)
 			(hide yes)
 			(show_name no)
