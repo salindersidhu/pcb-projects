@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "USB PD Module Schematic")
-		(date "2026-09-08")
+		(date "2026-10-19")
 		(rev "4.7")
 		(company "Salinder Sidhu")
 	)
@@ -6474,7 +6474,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:AMPHENOL_10164359-00011LF"
+		(property "Footprint" "external_footprints:AMPHENOL_10164359-00011LF"
 			(at 45.72 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7267,7 +7267,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:JST_B2B-XH-A"
+		(property "Footprint" "external_footprints:JST_B2B-XH-A"
 			(at 170.18 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -8171,7 +8171,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:SW_100SP1T2B4M7QE"
+		(property "Footprint" "external_footprints:SW_100SP1T2B4M7QE"
 			(at 46.99 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8540,7 +8540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_DS04-254-1L-05BK"
+		(property "Footprint" "external_footprints:SW_DS04-254-1L-05BK"
 			(at 41.91 113.03 0)
 			(hide yes)
 			(show_name no)
