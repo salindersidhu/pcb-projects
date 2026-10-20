@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "LED Dimmer Schematic")
-		(date "2026-10-18")
-		(rev "1.3")
+		(date "2026-10-19")
+		(rev "1.4")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
@@ -2742,6 +2742,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 124.46 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f29c5e93-da9c-46ba-816f-cd7906c201f3")
 		)
@@ -2814,6 +2825,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 30.48 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 30.48 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -2998,6 +3020,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 72.39 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 72.39 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3250,6 +3283,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 54.61 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f631ddb3-535e-41ff-9bea-c2b43d8e4b3e")
 		)
@@ -3409,6 +3453,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 63.5 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4f6c6016-db54-49ca-b7da-ee45605600bb")
 		)
@@ -3437,25 +3492,23 @@
 		(fields_autoplaced yes)
 		(uuid "7256af07-31b4-4ca0-a75b-455e0a699acd")
 		(property "Reference" "R3"
-			(at 97.7899 46.99 90)
+			(at 99.06 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "H50115K1A"
-			(at 100.3299 46.99 90)
+		(property "Value" "RK09711100F8"
+			(at 99.06 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "footprints:TRIM_PTN091-H50115K1A"
@@ -4272,6 +4325,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/DIP/legacy"
+			(at 57.15 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "c4a79813-d7a4-4b6d-9431-ec5fb2bcb71a")
 		)
@@ -4444,6 +4508,17 @@
 			)
 		)
 		(property "Description" "6.3A Id, 20V Vds, 21mOhm Rds, N-Channel StrongIRFET Power MOSFET, SOT-23"
+			(at 132.08 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 132.08 44.45 0)
 			(hide yes)
 			(show_name no)
