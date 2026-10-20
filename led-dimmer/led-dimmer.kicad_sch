@@ -6,8 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "LED Dimmer Schematic")
-		(date "2026-10-19")
+		(date "2026-10-20")
 		(rev "1.4")
+		(company "Salinder Sidhu")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
@@ -3090,7 +3091,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:JST_B2B-XH-A"
+		(property "Footprint" "external_footprints:JST_B2B-XH-A"
 			(at 114.3 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3511,7 +3512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:TRIM_PTN091-H50115K1A"
+		(property "Footprint" "external_footprints:TRIM_PTN091-H50115K1A"
 			(at 99.06 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4659,7 +4660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:JST_B2B-XH-A"
+		(property "Footprint" "external_footprints:JST_B2B-XH-A"
 			(at 39.37 87.63 0)
 			(hide yes)
 			(show_name no)
