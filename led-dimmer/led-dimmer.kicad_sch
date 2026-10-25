@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "LED Dimmer Schematic")
-		(date "2026-10-23")
-		(rev "1.4")
+		(date "2026-10-25")
+		(rev "2.0")
 		(company "Salinder Sidhu")
 	)
 	(lib_symbols
@@ -851,333 +851,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PTN091-H50115K1A:PTN091-H50115K1A"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at -5.08 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "PTN091-H50115K1A"
-				(at -5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "PTN091-H50115K1A:TRIM_PTN091-H50115K1A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PARTREV" "1.01"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "Same Sky"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "11.3mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "PTN091-H50115K1A_0_0"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -4.572 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.572 0) (xy -3.81 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 1.016) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -1.27 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.016) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 1.27 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.016) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy 3.81 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.016) (xy 4.572 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Timer:NE555P"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1739,6 +1412,347 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc_imported:R09710NS-FB15A7_0-B503-00Y"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R09710NS-FB15A7.0-B503-00Y"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C18213428_RES-ADJ-TH_R09710NS-FB15A7_0-B503-00Y"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310101746_CTR-R09710NS-FB15A7-0-B503-00Y_C18213428.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "R09710NS-FB15A7.0-B503-00Y"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C18213428"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "CTR(长泰尔电子)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R09710NS-FB15A7_0-B503-00Y_1_1"
+				(polyline
+					(pts
+						(xy -2.54 -3.302) (xy 2.794 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 -3.81)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -1.016) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 1.016) (xy -2.286 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.016) (xy -1.524 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -1.016) (xy -0.254 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 0 1.524) (xy -0.508 2.54) (xy 0.508 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.016) (xy 0.762 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 1.016) (xy 1.524 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -3.81)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -3.81 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1970,10 +1984,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Power Input"
+	(text_box "MOSFET OUTPUT STAGE"
 		(exclude_from_sim no)
-		(at 16.51 77.47 0)
-		(size 67.31 27.94)
+		(at 175.895 16.51 0)
+		(size 36.83 30.48)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1990,12 +2004,56 @@
 			)
 			(justify left top)
 		)
-		(uuid "054b4d3a-4e0d-44d9-a20d-7792615a155a")
+		(uuid "1bae263f-13fa-46b7-945c-93ed4fa90c36")
 	)
-	(text_box "PWM Generator"
+	(text_box "DUTY CYCLE CONTROL"
+		(exclude_from_sim no)
+		(at 120.015 16.51 0)
+		(size 54.61 30.48)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "24c6dd56-7cf3-4e96-a6de-8c565ba46177")
+	)
+	(text_box "LED OUTPUT"
+		(exclude_from_sim no)
+		(at 175.895 48.26 0)
+		(size 36.83 30.48)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "7df5f5b7-c558-4adc-80bf-c22a0d20a491")
+	)
+	(text_box "POWER INPUT"
 		(exclude_from_sim no)
 		(at 16.51 16.51 0)
-		(size 134.62 59.69)
+		(size 36.83 30.48)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2012,12 +2070,12 @@
 			)
 			(justify left top)
 		)
-		(uuid "7f0c7f36-3185-45d9-b806-d4550d478943")
+		(uuid "c3a116c3-24d3-43fb-bb08-5108feba4974")
 	)
-	(text_box "LED Output"
+	(text_box "555 PWM CORE"
 		(exclude_from_sim no)
-		(at 85.09 77.47 0)
-		(size 66.04 27.94)
+		(at 54.61 16.51 0)
+		(size 64.135 62.23)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2034,91 +2092,139 @@
 			)
 			(justify left top)
 		)
-		(uuid "cfa4fb06-ed55-46ab-b974-aa9f3410da23")
+		(uuid "f82cea9b-3481-4815-8ebc-57ce2e3f8587")
 	)
 	(junction
-		(at 30.48 48.26)
+		(at 93.98 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7e5afb12-2cc7-41e6-af4e-a8c7eee50dea")
+		(uuid "13c7db5c-c2b5-4d81-bb57-5c2fa7db84ce")
 	)
 	(junction
-		(at 124.46 44.45)
+		(at 36.83 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cee81462-d67b-4eb8-9e23-35ffc5cccb1a")
+		(uuid "35f97410-73ae-41b6-9e6b-e52e7b31c1dd")
 	)
 	(junction
-		(at 35.56 43.18)
+		(at 81.28 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d36b17cc-3ab8-497b-bce9-fa73a368c8ac")
+		(uuid "610cd61e-af98-4c4a-a983-1e0090b1c09e")
 	)
 	(junction
-		(at 57.15 55.88)
+		(at 81.28 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "df96c185-75dd-4a8d-8a23-132b44bc6d3b")
+		(uuid "74d3ac1c-7d82-4423-90c2-c6b1fd83734e")
 	)
 	(junction
-		(at 54.61 87.63)
+		(at 78.74 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e7b111ec-6c75-445c-b0bb-224c7a1e2d31")
+		(uuid "822c2256-344f-49fd-b177-58b6f0cce55c")
+	)
+	(junction
+		(at 190.5 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91e87d2f-2fbb-4bbc-a355-281d2efd9838")
+	)
+	(junction
+		(at 78.74 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a372e843-4b3e-4699-827f-93c9a7fc726f")
+	)
+	(junction
+		(at 30.48 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b880a6f5-6096-4016-bdc2-b349f1d07a50")
 	)
 	(wire
 		(pts
-			(xy 44.45 87.63) (xy 54.61 87.63)
+			(xy 63.5 59.69) (xy 63.5 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "081d02dd-b302-4028-adad-1a05a98fe51f")
+		(uuid "0c3f105e-6845-48b9-b29e-bdc1a43007e2")
 	)
 	(wire
 		(pts
-			(xy 35.56 43.18) (xy 46.99 43.18)
+			(xy 30.48 38.1) (xy 30.48 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "109b8400-0fc3-4172-ab70-51df299f890f")
+		(uuid "0e37ce2e-f480-4dce-92ec-bb1bbd7a629f")
 	)
 	(wire
 		(pts
-			(xy 40.64 35.56) (xy 40.64 33.02)
+			(xy 78.74 43.18) (xy 80.01 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13f3bd78-c6b8-4277-be74-c00df1c3db51")
+		(uuid "111e7b83-dcc5-498c-aba6-e5e584609506")
 	)
 	(wire
 		(pts
-			(xy 54.61 85.09) (xy 54.61 87.63)
+			(xy 198.12 38.1) (xy 198.12 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "16fe7449-8e6b-4389-8979-3a3b0d202a50")
+		(uuid "19918102-f9cc-429e-a445-fc015aaa68ea")
 	)
 	(wire
 		(pts
-			(xy 44.45 96.52) (xy 44.45 90.17)
+			(xy 78.74 52.07) (xy 77.47 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d0cd1a9-4bad-44ad-b0ab-7b2579d77e97")
+		(uuid "1adfd2a9-55b0-4d61-b210-36667d466a22")
 	)
 	(wire
 		(pts
-			(xy 124.46 44.45) (xy 127 44.45)
+			(xy 78.74 59.69) (xy 81.28 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2435f8f2-bf8e-485e-821a-d45dd84d557b")
+	)
+	(wire
+		(pts
+			(xy 30.48 29.21) (xy 36.83 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "356fb33e-1762-4648-abc8-f92e58968b19")
+	)
+	(wire
+		(pts
+			(xy 93.98 27.94) (xy 93.98 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38836870-f263-462e-839c-3337652d0bf7")
+	)
+	(wire
+		(pts
+			(xy 189.23 30.48) (xy 190.5 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2128,207 +2234,261 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 27.94) (xy 67.31 27.94)
+			(xy 134.62 38.1) (xy 147.32 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40d54a82-7041-4e82-9d77-aeb64f50af35")
+		(uuid "4c536fe9-e7af-45e4-9fe7-d3256d17c936")
 	)
 	(wire
 		(pts
-			(xy 72.39 27.94) (xy 72.39 35.56)
+			(xy 77.47 43.18) (xy 78.74 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "436105b4-a26a-4677-b3d2-3387012111d5")
+		(uuid "52dc2cb1-dd48-4334-b91b-5b0df7a3ec3d")
 	)
 	(wire
 		(pts
-			(xy 29.21 48.26) (xy 30.48 48.26)
+			(xy 36.83 29.21) (xy 36.83 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e7bf2ce-de25-4583-aaaf-635842bae931")
+		(uuid "5e03fdba-3ae8-4c61-a852-ef20867d3c79")
 	)
 	(wire
 		(pts
-			(xy 55.88 55.88) (xy 57.15 55.88)
+			(xy 78.74 52.07) (xy 78.74 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6330955e-5c00-415d-b80d-4231808c3486")
+		(uuid "66b002e9-d956-4e15-ad1e-df24e646850e")
 	)
 	(wire
 		(pts
-			(xy 72.39 45.72) (xy 67.31 45.72)
+			(xy 77.47 59.69) (xy 78.74 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8003bc3b-6444-4223-ad2f-abc12f42e0aa")
+		(uuid "6b84a7e4-08c9-4eff-b091-eee228e07621")
 	)
 	(wire
 		(pts
-			(xy 54.61 87.63) (xy 58.42 87.63)
+			(xy 189.23 25.4) (xy 198.12 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "871dc067-d10d-47c6-b3c3-64e5744cda5c")
+		(uuid "6eea1f04-52ee-424c-8b0f-ed27b1008d85")
 	)
 	(wire
 		(pts
-			(xy 114.3 48.26) (xy 114.3 44.45)
+			(xy 80.01 43.18) (xy 80.01 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89da3afe-0493-40e0-b230-5369a2bb2905")
+		(uuid "70445724-af7c-4312-9e06-79b4a7ded699")
 	)
 	(wire
 		(pts
-			(xy 30.48 58.42) (xy 30.48 55.88)
+			(xy 91.44 67.31) (xy 91.44 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f64ea83-9583-4e46-aaff-5fdb8990039c")
+		(uuid "7f9bca27-0f85-46fb-a93c-bc067a639ad1")
 	)
 	(wire
 		(pts
-			(xy 59.69 27.94) (xy 59.69 35.56)
+			(xy 152.4 26.67) (xy 160.02 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9b5a5ae0-5d08-408b-87a0-9264ff7fc55e")
+		(uuid "837a820e-3266-4386-996c-1920fcaa2e1f")
 	)
 	(wire
 		(pts
-			(xy 83.82 48.26) (xy 83.82 44.45)
+			(xy 102.87 27.94) (xy 101.6 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b214f303-90d1-449f-86ba-34ade2f15390")
+		(uuid "a2b87d2a-451f-49c8-bdb4-e34a12928ffd")
 	)
 	(wire
 		(pts
-			(xy 40.64 33.02) (xy 44.45 33.02)
+			(xy 81.28 46.99) (xy 81.28 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8412b18-ae0a-4317-b325-094d9251db12")
+		(uuid "a915b04e-a007-4daf-b4b3-67e4b319f113")
 	)
 	(wire
 		(pts
-			(xy 35.56 38.1) (xy 35.56 43.18)
+			(xy 81.28 59.69) (xy 81.28 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd113d29-020a-40e2-b17f-4cbafc674131")
+		(uuid "aaf6c625-d625-42ea-986e-fa1c1f9c8333")
 	)
 	(wire
 		(pts
-			(xy 124.46 45.72) (xy 124.46 44.45)
+			(xy 63.5 36.83) (xy 81.28 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4a36383-5949-4be9-b133-d9d1bca25d42")
+		(uuid "ae64490f-04bb-45d0-8ceb-c64e6e72e56d")
 	)
 	(wire
 		(pts
-			(xy 52.07 33.02) (xy 57.15 33.02)
+			(xy 147.32 38.1) (xy 147.32 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ec52769e-2a69-425a-8a45-9158c7645f57")
+		(uuid "af42f911-56ce-4503-9499-4a8bfe368567")
 	)
 	(wire
 		(pts
-			(xy 124.46 43.18) (xy 124.46 44.45)
+			(xy 36.83 27.94) (xy 36.83 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f0e64598-ef21-4826-a417-3898b7e79674")
+		(uuid "bb238f24-6954-4ffa-8ac9-b37605303131")
 	)
 	(wire
 		(pts
-			(xy 30.48 48.26) (xy 46.99 48.26)
+			(xy 77.47 39.37) (xy 81.28 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f157b0fb-96ca-407e-8fca-ea37659d145a")
+		(uuid "bf1e0c6a-e250-4bde-a01a-ac5670d5693e")
 	)
 	(wire
 		(pts
-			(xy 54.61 87.63) (xy 54.61 88.9)
+			(xy 93.98 22.86) (xy 93.98 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1d0f076-9e47-4334-9197-944ae92cd221")
+		(uuid "c5c14611-a648-461a-ad22-b6039e5330f9")
 	)
 	(wire
 		(pts
-			(xy 57.15 55.88) (xy 57.15 58.42)
+			(xy 82.55 27.94) (xy 83.82 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fd803426-f741-4117-9957-f5375f3113b1")
+		(uuid "cbac67ec-a806-4ebc-b74c-ece3fd45051c")
 	)
 	(wire
 		(pts
-			(xy 57.15 33.02) (xy 57.15 35.56)
+			(xy 81.28 36.83) (xy 81.28 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fe6d2ff9-280e-42ba-8414-d4111a469788")
+		(uuid "d881ec2b-c16e-4385-b98c-35a88dd33c3b")
+	)
+	(wire
+		(pts
+			(xy 134.62 26.67) (xy 142.24 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4520bd9-3a4e-45e2-b255-ac173c160006")
+	)
+	(wire
+		(pts
+			(xy 91.44 27.94) (xy 91.44 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f89a7f3a-23ba-4b36-be5f-e295644390d1")
+	)
+	(wire
+		(pts
+			(xy 80.01 41.91) (xy 81.28 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdd54eae-ba6c-4ff5-b81e-2fdf9aee0547")
+	)
+	(global_label "+12V"
+		(shape input)
+		(at 36.83 27.94 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "08221f5d-0e48-407d-ba53-a356b666ba7e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.83 19.8748 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(global_label "DISCHARGE"
 		(shape input)
-		(at 114.3 48.26 270)
+		(at 160.02 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "0b642fc2-b99a-45de-b257-1f1cc8203727")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 61.7076 90)
+			(at 173.4676 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2336,23 +2496,23 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
-	(global_label "MOSFET_GATE"
+	(global_label "+12V"
 		(shape input)
-		(at 72.39 53.34 270)
+		(at 160.02 26.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "1a1b6dbc-abbf-44d5-b8ef-be7385bd6aba")
+		(uuid "0be3d9c2-33d9-485e-ae1f-0c864fbca49b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.39 68.9646 90)
+			(at 168.0852 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2360,13 +2520,13 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
-	(global_label "MOSFET_GATE"
+	(global_label "GATE"
 		(shape input)
-		(at 124.46 45.72 270)
+		(at 189.23 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2376,7 +2536,7 @@
 		)
 		(uuid "2862dd9f-54e8-434f-bf80-2a881ddafe92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.46 61.3446 90)
+			(at 181.7696 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2390,17 +2550,17 @@
 	)
 	(global_label "+12V"
 		(shape input)
-		(at 58.42 87.63 0)
+		(at 77.47 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "2d3c3bfb-104f-478e-957b-2d2387c698e2")
+		(uuid "59f30fba-69d5-4a9e-8fc1-97266f2ae669")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.4852 87.63 0)
+			(at 69.4048 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2408,13 +2568,13 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
 	(global_label "TIMING"
 		(shape input)
-		(at 46.99 50.8 180)
+		(at 134.62 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2422,9 +2582,9 @@
 			)
 			(justify right)
 		)
-		(uuid "780c89a4-a63a-4e70-b939-622149308a9e")
+		(uuid "608d58d4-4f7a-4991-b393-04948e3cbb61")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.7757 50.8 0)
+			(at 125.4057 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2436,9 +2596,9 @@
 			)
 		)
 	)
-	(global_label "+12V"
+	(global_label "PWM_EN"
 		(shape input)
-		(at 27.94 43.18 180)
+		(at 134.62 26.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2446,9 +2606,9 @@
 			)
 			(justify right)
 		)
-		(uuid "851881b9-0712-4800-bae8-c312543d550c")
+		(uuid "835de4cd-280f-4a1e-ad1d-9be9143451e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.8748 43.18 0)
+			(at 124.0149 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2460,33 +2620,9 @@
 			)
 		)
 	)
-	(global_label "+12V"
+	(global_label "GATE"
 		(shape input)
-		(at 59.69 27.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a035adb8-9c17-46a6-9681-1f7c6eed2d40")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.6248 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "DISCHARGE"
-		(shape input)
-		(at 35.56 38.1 90)
+		(at 109.22 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2494,9 +2630,9 @@
 			)
 			(justify left)
 		)
-		(uuid "b3d5cbfd-8c5f-4c00-bfef-0a7f643ac526")
+		(uuid "92198b75-6d8f-4938-8c6b-c361a9097188")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.56 24.6524 90)
+			(at 116.6804 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2510,7 +2646,7 @@
 	)
 	(global_label "DISCHARGE"
 		(shape input)
-		(at 83.82 48.26 270)
+		(at 134.62 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2520,7 +2656,7 @@
 		)
 		(uuid "b73207ac-968d-4d14-8761-9feaf8e91f97")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.82 61.7076 90)
+			(at 121.1724 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2532,19 +2668,18 @@
 			)
 		)
 	)
-	(global_label "TIMING"
+	(global_label "DISCHARGE"
 		(shape input)
-		(at 99.06 39.37 90)
-		(fields_autoplaced yes)
+		(at 77.47 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "c0ab90db-5828-42fa-b5b0-7507fc84821d")
+		(uuid "c3d97864-355d-4ecc-9a60-a3b4465d3933")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.06 30.1557 90)
+			(at 79.4876 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2552,13 +2687,13 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
 	(global_label "+12V"
 		(shape input)
-		(at 109.22 91.44 180)
+		(at 189.23 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2568,7 +2703,31 @@
 		)
 		(uuid "c4815542-6c50-43ec-b887-9faff790e05f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.1548 91.44 0)
+			(at 181.1648 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PWM_EN"
+		(shape input)
+		(at 77.47 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d05796cd-c53c-4415-aba4-460b89813278")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.8649 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2582,7 +2741,7 @@
 	)
 	(global_label "TIMING"
 		(shape input)
-		(at 29.21 48.26 180)
+		(at 77.47 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2590,9 +2749,33 @@
 			)
 			(justify right)
 		)
-		(uuid "dd7ee72d-3766-4c52-af28-2e81414f71bf")
+		(uuid "dc2ae135-b7ad-43db-9b5c-fde6c65fd7b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.9957 48.26 0)
+			(at 68.2557 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LED_PWM"
+		(shape input)
+		(at 189.23 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6184da3-6fa5-456a-a866-893b86801124")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.6573 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2606,31 +2789,7 @@
 	)
 	(global_label "+12V"
 		(shape input)
-		(at 46.99 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "df8f40f4-c2e7-4950-ab8d-7d15291cdf6a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.9248 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "LED_PWM"
-		(shape input)
-		(at 134.62 39.37 90)
+		(at 93.98 22.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2638,9 +2797,9 @@
 			)
 			(justify left)
 		)
-		(uuid "e6184da3-6fa5-456a-a866-893b86801124")
+		(uuid "e6681d4e-8774-44d1-a90b-f34243c81997")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.62 27.7973 90)
+			(at 102.0452 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2654,7 +2813,7 @@
 	)
 	(global_label "LED_PWM"
 		(shape input)
-		(at 109.22 88.9 180)
+		(at 189.23 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2664,7 +2823,7 @@
 		)
 		(uuid "f8b10055-1648-43dd-91bf-b3e6fb40d572")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.6473 88.9 0)
+			(at 177.6573 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2678,7 +2837,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 124.46 39.37 0)
+		(at 190.5 34.29 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2688,8 +2847,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d1336d2-2741-4de3-92c6-9dc7db1590b9")
-		(property "Reference" "R4"
-			(at 127 38.0999 0)
+		(property "Reference" "R5"
+			(at 187.96 35.5601 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2700,7 +2859,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 127 40.6399 0)
+			(at 187.96 33.0201 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2711,7 +2870,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 122.682 39.37 90)
+			(at 192.278 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2722,7 +2881,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 39.37 0)
+			(at 190.5 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2733,7 +2892,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 124.46 39.37 0)
+			(at 190.5 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2744,7 +2903,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 124.46 39.37 0)
+			(at 190.5 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2763,7 +2922,7 @@
 		(instances
 			(project "led-dimmer"
 				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2771,7 +2930,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 30.48 52.07 0)
+		(at 97.79 27.94 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2779,32 +2939,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15b1e436-74ef-4a15-af84-5e33afdabd92")
-		(property "Reference" "C1"
-			(at 34.29 50.7999 0)
+		(uuid "214806c2-0a91-4c3d-a0f6-ddec549f1e65")
+		(property "Reference" "C4"
+			(at 97.79 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "0.1u"
-			(at 34.29 53.3399 0)
+			(at 97.79 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 31.4452 55.88 0)
+			(at 93.98 26.9748 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2815,7 +2972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 52.07 0)
+			(at 97.79 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2826,7 +2983,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 30.48 52.07 0)
+			(at 97.79 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2837,7 +2994,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 30.48 52.07 0)
+			(at 97.79 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2848,23 +3005,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "88550a09-4911-444b-906c-7bb126bc6543")
+			(uuid "3d13a8c7-1f62-458f-8199-54409ce6b44e")
 		)
 		(pin "1"
-			(uuid "f0e1248f-b522-4922-b5e1-dfcc1ad681ba")
+			(uuid "e90d2827-bd91-4905-848a-4bf8695cf952")
 		)
 		(instances
 			(project "led-dimmer"
 				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
-					(reference "C1")
+					(reference "C4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148W")
-		(at 87.63 44.45 0)
+		(lib_id "power:GND")
+		(at 102.87 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2873,29 +3030,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "37cf3b88-00a7-4dea-91f8-2983d5652bde")
-		(property "Reference" "D1"
-			(at 87.63 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148W"
-			(at 87.63 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 87.63 48.895 0)
+		(uuid "23013294-03b7-4a32-a59a-5d0a24f6114c")
+		(property "Reference" "#PWR07"
+			(at 102.87 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2905,9 +3042,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 87.63 44.45 0)
-			(hide yes)
+		(property "Value" "GND"
+			(at 102.87 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2916,90 +3052,8 @@
 				)
 			)
 		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 87.63 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 87.63 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 87.63 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3ee929c7-27f5-496f-ae1b-eb46c287bc38")
-		)
-		(pin "1"
-			(uuid "0191f630-c915-4dbf-9e7f-512dfe7ef6d8")
-		)
-		(instances
-			(project "led-dimmer"
-				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 72.39 49.53 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46f5ea7a-55d7-479e-beec-b01ce1f5b717")
-		(property "Reference" "R2"
-			(at 74.93 48.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 74.93 50.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 74.168 49.53 90)
+		(property "Footprint" ""
+			(at 102.87 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3010,7 +3064,162 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 49.53 0)
+			(at 102.87 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c3f31347-b838-4114-a97a-caa66ecc8f86")
+		)
+		(instances
+			(project "led-dimmer"
+				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 91.44 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2379e5ef-2a48-400b-befc-e4591fe9cd2c")
+		(property "Reference" "#PWR06"
+			(at 91.44 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f39d7ce-9db4-4c64-9886-64bab6353a8d")
+		)
+		(instances
+			(project "led-dimmer"
+				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 44.45 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "46f5ea7a-55d7-479e-beec-b01ce1f5b717")
+		(property "Reference" "R3"
+			(at 105.41 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 105.41 48.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 105.41 46.228 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3021,7 +3230,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 72.39 49.53 0)
+			(at 105.41 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3032,7 +3241,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 72.39 49.53 0)
+			(at 105.41 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3051,7 +3260,7 @@
 		(instances
 			(project "led-dimmer"
 				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3059,7 +3268,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 114.3 91.44 180)
+		(at 194.31 63.5 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3070,7 +3279,7 @@
 		(fields_autoplaced yes)
 		(uuid "484413b9-ece2-4940-bd4c-562111aa1a18")
 		(property "Reference" "J2"
-			(at 115.57 88.8999 0)
+			(at 195.58 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3081,7 +3290,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 115.57 91.4399 0)
+			(at 195.58 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3092,7 +3301,7 @@
 			)
 		)
 		(property "Footprint" "external_footprints:JST_B2B-XH-A"
-			(at 114.3 91.44 0)
+			(at 194.31 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3103,7 +3312,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 91.44 0)
+			(at 194.31 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3114,7 +3323,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 114.3 91.44 0)
+			(at 194.31 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3141,7 +3350,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 31.75 43.18 90)
+		(at 78.74 46.99 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3149,29 +3359,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4a261128-64ad-4a48-9cf6-4e72be8d406d")
-		(property "Reference" "R1"
-			(at 31.75 40.386 90)
+		(uuid "506252f6-8256-4827-ab2c-dcafb8774cd2")
+		(property "Reference" "R2"
+			(at 76.2 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1k"
-			(at 31.75 37.846 90)
+			(at 76.2 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 31.75 44.958 90)
+			(at 80.518 46.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3182,7 +3394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 43.18 0)
+			(at 78.74 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3193,7 +3405,18 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 31.75 43.18 0)
+			(at 78.74 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 78.74 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3204,23 +3427,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "8aadb92f-1132-49cc-bda9-feec1b99426c")
+			(uuid "6eac17a7-853d-4747-b749-64eb6d5654b9")
 		)
 		(pin "2"
-			(uuid "833b4f2d-fe80-4b71-95ae-365b78e5c30d")
+			(uuid "1f4a052c-fe32-4f64-842b-3faba361831a")
 		)
 		(instances
 			(project "led-dimmer"
 				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 54.61 92.71 0)
+		(lib_id "Device:C")
+		(at 78.74 63.5 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3228,9 +3452,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4b46f826-971c-45cf-86e4-af153c96715d")
-		(property "Reference" "C3"
-			(at 58.42 90.5509 0)
+		(uuid "5653371e-7b37-40c2-9455-ed99cdaf8680")
+		(property "Reference" "C2"
+			(at 74.93 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3240,8 +3464,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470u"
-			(at 58.42 93.0909 0)
+		(property "Value" "0.1u"
+			(at 74.93 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3251,8 +3475,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 55.5752 96.52 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 77.7748 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3263,7 +3487,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 92.71 0)
+			(at 78.74 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3273,8 +3497,8 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 54.61 92.71 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 78.74 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3284,8 +3508,89 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
-			(at 54.61 92.71 0)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 78.74 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "015ad00c-2556-4b90-b50b-322809bcb778")
+		)
+		(pin "1"
+			(uuid "37afeef5-9516-4cf7-b5f7-42cd8884ac50")
+		)
+		(instances
+			(project "led-dimmer"
+				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e8555d2-93fa-4b15-b80d-2766deb63407")
+		(property "Reference" "#PWR04"
+			(at 78.74 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3296,10 +3601,87 @@
 			)
 		)
 		(pin "1"
-			(uuid "f631ddb3-535e-41ff-9bea-c2b43d8e4b3e")
+			(uuid "8198b777-0160-41cb-98a3-580c3bc80d24")
+		)
+		(instances
+			(project "led-dimmer"
+				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 87.63 27.94 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f1e06be-cbbc-4408-92a0-dd5b0f926853")
+		(property "Reference" "C3"
+			(at 87.63 20.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10n"
+			(at 87.63 22.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 91.44 26.9748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 87.63 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "697de037-f0f2-4112-bb43-bfe0de49b645")
 		)
 		(pin "2"
-			(uuid "cea69e62-16d2-4a50-82ac-7911c51851fa")
+			(uuid "13d1b688-0db7-49ab-a9d8-f9b0fe4e4824")
 		)
 		(instances
 			(project "led-dimmer"
@@ -3311,8 +3693,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 54.61 85.09 0)
+		(lib_id "lcsc_imported:R09710NS-FB15A7_0-B503-00Y")
+		(at 147.32 30.48 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3321,9 +3703,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4d98f4ce-4c63-40f7-94cf-002992d9de4e")
-		(property "Reference" "#FLG01"
-			(at 54.61 83.185 0)
+		(uuid "6f878a3d-fde1-46f6-88f8-c91892b5d499")
+		(property "Reference" "R4"
+			(at 147.32 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C18213428"
+			(at 147.32 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C18213428_RES-ADJ-TH_R09710NS-FB15A7_0-B503-00Y"
+			(at 147.32 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3333,19 +3735,8 @@
 				)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 57.15 83.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 85.09 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310101746_CTR-R09710NS-FB15A7-0-B503-00Y_C18213428.pdf"
+			(at 149.606 30.607 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3355,8 +3746,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 54.61 85.09 0)
+		(property "Description" "R09710NS-FB15A7.0-B503-00Y"
+			(at 147.32 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3366,8 +3757,8 @@
 				)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 54.61 85.09 0)
+		(property "LCSC" "C18213428"
+			(at 147.32 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3376,338 +3767,37 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Manufacturer" "CTR(长泰尔电子)"
+			(at 147.32 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "bd2c4ded-4cdc-406a-95d2-bdd13e2fdf5b")
+		)
+		(pin "4"
+			(uuid "8efbffa4-7191-4fe1-ae48-99d2fcb67ce0")
 		)
 		(pin "1"
-			(uuid "46aa6d8b-c458-48f0-b802-22f38710f209")
-		)
-		(instances
-			(project "led-dimmer"
-				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 63.5 27.94 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6458950b-bfda-4eba-abd3-e8be0d747209")
-		(property "Reference" "C4"
-			(at 63.5 20.32 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 63.5 22.86 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 67.31 26.9748 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 63.5 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 63.5 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4f6c6016-db54-49ca-b7da-ee45605600bb")
-		)
-		(pin "1"
-			(uuid "e63861c6-7334-4b75-ad8f-252bb8dc5266")
-		)
-		(instances
-			(project "led-dimmer"
-				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PTN091-H50115K1A:PTN091-H50115K1A")
-		(at 99.06 44.45 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7256af07-31b4-4ca0-a75b-455e0a699acd")
-		(property "Reference" "R3"
-			(at 99.06 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RK09711100F8"
-			(at 99.06 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "external_footprints:TRIM_PTN091-H50115K1A"
-			(at 99.06 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" "1.01"
-			(at 99.06 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Same Sky"
-			(at 99.06 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "11.3mm"
-			(at 99.06 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 99.06 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "1"
-			(uuid "583d4bdb-c5c4-410e-8c09-8ae80c0ea656")
-		)
-		(pin "2"
-			(uuid "c1c42e5a-6bb1-494b-b5d9-32e9b067948d")
+			(uuid "970c885f-cbca-4759-ade0-3fe3f442e89d")
 		)
 		(pin "3"
-			(uuid "c58d1347-c292-44f9-9470-a98ad09def63")
-		)
-		(instances
-			(project "led-dimmer"
-				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148W")
-		(at 110.49 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "72b4cae0-550f-44b2-b665-e7004a1997f6")
-		(property "Reference" "D2"
-			(at 110.49 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148W"
-			(at 110.49 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 110.49 48.895 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 110.49 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 110.49 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 110.49 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 110.49 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(uuid "bf8edb04-8df4-49bc-85a0-e7e86d17302d")
 		)
 		(pin "2"
-			(uuid "4ab7fb7a-13d9-49f3-bc83-74a2ebb1f647")
-		)
-		(pin "1"
-			(uuid "97eb9b94-a351-4266-b920-e0366ef0b8c9")
+			(uuid "7adecc73-4b06-4fae-b399-88a872f532c9")
 		)
 		(instances
 			(project "led-dimmer"
 				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
-					(reference "D2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3715,85 +3805,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 57.15 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "792edb76-99a1-4d52-8c4b-386c1f69bf67")
-		(property "Reference" "#PWR05"
-			(at 57.15 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.15 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "111a01cb-7729-44f7-b98e-51e33e619171")
-		)
-		(instances
-			(project "led-dimmer"
-				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 134.62 49.53 0)
+		(at 198.12 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3803,8 +3815,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b834708-0851-48e4-bf5f-8fa7505236e0")
-		(property "Reference" "#PWR08"
-			(at 134.62 55.88 0)
+		(property "Reference" "#PWR09"
+			(at 198.12 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3815,7 +3827,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 54.61 0)
+			(at 198.12 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3825,7 +3837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 49.53 0)
+			(at 198.12 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3836,7 +3848,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 49.53 0)
+			(at 198.12 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3847,7 +3859,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 49.53 0)
+			(at 198.12 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3863,15 +3875,15 @@
 		(instances
 			(project "led-dimmer"
 				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 124.46 35.56 180)
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 25.4 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3880,10 +3892,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "932705c2-09eb-40a0-820a-3ac4dee356f8")
-		(property "Reference" "#PWR07"
-			(at 124.46 29.21 0)
-			(hide yes)
+		(uuid "86d74aca-1232-4fa9-987d-6700f3262ac4")
+		(property "Reference" "J1"
+			(at 26.035 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3892,8 +3903,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 124.46 30.48 0)
+		(property "Value" "Conn_01x02_Pin"
+			(at 26.035 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3902,8 +3913,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 124.46 35.56 0)
+		(property "Footprint" "external_footprints:JST_B2B-XH-A"
+			(at 25.4 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3914,7 +3925,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 35.56 0)
+			(at 25.4 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 25.4 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a83d6217-6764-4abe-9728-b15ac16654f7")
+		)
+		(pin "2"
+			(uuid "6483b771-6c79-40fe-b191-8f214d482443")
+		)
+		(instances
+			(project "led-dimmer"
+				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "932705c2-09eb-40a0-820a-3ac4dee356f8")
+		(property "Reference" "#PWR08"
+			(at 190.5 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3925,7 +4017,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 35.56 0)
+			(at 190.5 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3941,7 +4033,7 @@
 		(instances
 			(project "led-dimmer"
 				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3949,7 +4041,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 96.52 0)
+		(at 82.55 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3958,9 +4050,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9bd62e01-e4c8-425d-962b-b9c677f97aac")
-		(property "Reference" "#PWR03"
-			(at 44.45 102.87 0)
+		(uuid "acd332ce-914e-4707-9965-f63f0a4faafd")
+		(property "Reference" "#PWR05"
+			(at 82.55 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3971,7 +4063,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 101.6 0)
+			(at 82.55 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3981,7 +4073,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 96.52 0)
+			(at 82.55 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3992,7 +4084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 96.52 0)
+			(at 82.55 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4003,7 +4095,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 96.52 0)
+			(at 82.55 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4014,12 +4106,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1d15d476-df0f-4838-b1ff-710020e73eca")
+			(uuid "cf581391-0efb-4b70-838a-4b48a4125cdd")
 		)
 		(instances
 			(project "led-dimmer"
 				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
-					(reference "#PWR03")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4027,7 +4119,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 96.52 0)
+		(at 30.48 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4036,9 +4128,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ab72f2e7-d4fc-462a-9332-89863b3819ba")
-		(property "Reference" "#PWR04"
-			(at 54.61 102.87 0)
+		(uuid "b0a1e2f3-e041-47f6-845d-e65eb2bd53c0")
+		(property "Reference" "#PWR01"
+			(at 30.48 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4049,7 +4141,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 101.6 0)
+			(at 30.48 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4059,7 +4151,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 96.52 0)
+			(at 30.48 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4070,7 +4162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 96.52 0)
+			(at 30.48 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4081,7 +4173,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 96.52 0)
+			(at 30.48 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4092,12 +4184,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "539a667d-c236-4b18-aec5-1ca7245814fb")
+			(uuid "eb22b115-6232-4a72-8cb6-7231482997b9")
 		)
 		(instances
 			(project "led-dimmer"
 				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
-					(reference "#PWR04")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4105,7 +4197,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 35.56 0)
+		(at 36.83 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4114,88 +4206,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b2119127-63e0-41b1-9313-8ca4ded5b21c")
-		(property "Reference" "#PWR06"
-			(at 72.39 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 74.93 36.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3829b583-28e1-4b3b-a3ea-ea783bb4053a")
-		)
-		(instances
-			(project "led-dimmer"
-				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 40.64 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bdbf0530-ace4-4329-923a-dd824eaff6ba")
+		(uuid "c256b41e-bdc7-4c78-ae76-6f2f3a46f095")
 		(property "Reference" "#PWR02"
-			(at 40.64 41.91 0)
+			(at 36.83 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4206,18 +4219,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 36.8299 0)
+			(at 36.83 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 35.56 0)
+			(at 36.83 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4228,7 +4240,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 35.56 0)
+			(at 36.83 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4239,7 +4251,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 35.56 0)
+			(at 36.83 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4250,7 +4262,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "54ec57b7-d6e7-4e0c-8420-86192a38fbb8")
+			(uuid "a3676ee4-4f44-4661-a080-6de5e83c56fe")
 		)
 		(instances
 			(project "led-dimmer"
@@ -4262,117 +4274,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Timer:NE555P")
-		(at 57.15 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce2ded2a-cd53-4761-a7f5-4b8845eb5324")
-		(property "Reference" "U1"
-			(at 69.85 39.2998 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NE555P"
-			(at 69.85 41.8398 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 57.15 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne555.pdf"
-			(at 57.15 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Precision Timers, 555 compatible, PDIP-8"
-			(at 57.15 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/DIP/legacy"
-			(at 57.15 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "c4a79813-d7a4-4b6d-9431-ec5fb2bcb71a")
-		)
-		(pin "4"
-			(uuid "0f924b92-0365-4266-b4e6-628b1c513a3a")
-		)
-		(pin "5"
-			(uuid "d74b4e6c-d042-4439-96ee-65e865c7ff24")
-		)
-		(pin "6"
-			(uuid "2d8d40dd-a0ba-44c4-8a79-83f345414efd")
-		)
-		(pin "1"
-			(uuid "5d1c4b5f-b73e-4725-9740-41ecf49944fb")
-		)
-		(pin "7"
-			(uuid "80e465d2-8973-410b-a7e1-bdbb4835e652")
-		)
-		(pin "2"
-			(uuid "eb12fbc1-1a76-45af-b1b1-a475f82caafd")
-		)
-		(pin "3"
-			(uuid "5d669d22-604b-40f5-b3f2-bee34a72da15")
-		)
-		(instances
-			(project "led-dimmer"
-				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 55.88 55.88 90)
+		(at 30.48 38.1 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4381,9 +4284,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d1b975e6-8135-44c3-8bd1-f73137b93f4e")
-		(property "Reference" "#FLG02"
-			(at 53.975 55.88 0)
+		(uuid "caa07c5a-14bb-4d5b-babf-c6dc6c406b52")
+		(property "Reference" "#FLG01"
+			(at 28.575 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4394,7 +4297,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 52.07 55.8799 90)
+			(at 26.67 38.0999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4405,7 +4308,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 55.88 0)
+			(at 30.48 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4416,7 +4319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 55.88 0)
+			(at 30.48 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4427,7 +4330,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 55.88 55.88 0)
+			(at 30.48 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4438,7 +4341,178 @@
 			)
 		)
 		(pin "1"
-			(uuid "5f788368-7fea-4b64-aaf9-c6ad8337114d")
+			(uuid "b2cbfc93-4f1b-44d4-b14f-b7345f5e46ea")
+		)
+		(instances
+			(project "led-dimmer"
+				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 36.83 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cebcd7ac-816c-44e0-8f66-7f1b44e4f839")
+		(property "Reference" "C1"
+			(at 40.64 32.1309 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470u"
+			(at 40.64 34.6709 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+			(at 37.7952 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 36.83 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 36.83 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "502df55b-d939-4e36-bee9-7187412f8730")
+		)
+		(pin "2"
+			(uuid "4c4cf51c-7c16-4a26-8093-0f44e9a1d739")
+		)
+		(instances
+			(project "led-dimmer"
+				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 36.83 29.21 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf904106-6388-4516-b040-04718f589e84")
+		(property "Reference" "#FLG02"
+			(at 38.735 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 40.64 29.2099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 36.83 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e55ef54b-c21d-4a32-a2a9-2023a295bf70")
 		)
 		(instances
 			(project "led-dimmer"
@@ -4450,8 +4524,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLML6244")
-		(at 132.08 44.45 0)
+		(lib_id "Timer:NE555P")
+		(at 91.44 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4460,9 +4534,117 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "d77788ca-d28f-4683-ab3c-bc8b40ccfac9")
+		(property "Reference" "U1"
+			(at 104.14 38.0298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NE555P"
+			(at 104.14 40.5698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 91.44 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne555.pdf"
+			(at 91.44 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Precision Timers, 555 compatible, PDIP-8"
+			(at 91.44 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/DIP/legacy"
+			(at 91.44 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "2fcfdbfb-1c4e-4351-8bdb-5206886e84e6")
+		)
+		(pin "4"
+			(uuid "1a40bbfc-7dac-4c94-97ac-505886938c98")
+		)
+		(pin "5"
+			(uuid "7994f958-0271-4456-aadb-9b2889805836")
+		)
+		(pin "6"
+			(uuid "43bb0a03-a5be-4ae8-9330-fcde28541624")
+		)
+		(pin "1"
+			(uuid "cace4262-9665-48ff-a834-c26087a602e5")
+		)
+		(pin "7"
+			(uuid "f6939346-24ce-464a-9d14-3e16db1fb099")
+		)
+		(pin "2"
+			(uuid "8eeba0f3-3bdd-49ba-ae52-c9d7e286e247")
+		)
+		(pin "3"
+			(uuid "66de3fac-54d6-4658-b8c4-3867a1328a7e")
+		)
+		(instances
+			(project "led-dimmer"
+				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLML6244")
+		(at 195.58 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "dbe6de3a-0077-4ea0-bf72-1b359267073d")
 		(property "Reference" "Q1"
-			(at 138.43 43.1799 0)
+			(at 200.914 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4473,7 +4655,7 @@
 			)
 		)
 		(property "Value" "IRLML6344"
-			(at 138.43 45.7199 0)
+			(at 200.914 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4484,7 +4666,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 137.16 46.355 0)
+			(at 200.66 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4497,7 +4679,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IRLML6244-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a4015356686fed261f"
-			(at 137.16 48.26 0)
+			(at 200.66 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4509,7 +4691,7 @@
 			)
 		)
 		(property "Description" "6.3A Id, 20V Vds, 21mOhm Rds, N-Channel StrongIRFET Power MOSFET, SOT-23"
-			(at 132.08 44.45 0)
+			(at 195.58 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4520,7 +4702,7 @@
 			)
 		)
 		(property "KiLib_Generator" "package/gullwing"
-			(at 132.08 44.45 0)
+			(at 195.58 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4549,8 +4731,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 48.26 33.02 90)
+		(lib_id "Diode:1N4148W")
+		(at 156.21 30.48 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4558,10 +4741,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5941d0d-bb87-4e3a-9c6b-9528f6492c68")
-		(property "Reference" "C2"
-			(at 48.26 25.4 90)
+		(uuid "e1ec9f60-3ed1-4ce8-8074-e35c88138839")
+		(property "Reference" "D2"
+			(at 156.21 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4570,8 +4752,8 @@
 				)
 			)
 		)
-		(property "Value" "10n"
-			(at 48.26 27.94 90)
+		(property "Value" "1N4148W"
+			(at 156.21 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4580,8 +4762,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 52.07 32.0548 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 156.21 26.035 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4591,8 +4773,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 48.26 33.02 0)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 156.21 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4602,8 +4784,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 48.26 33.02 0)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 156.21 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4613,24 +4795,47 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "61827ee4-65d6-4fda-a437-2b3204793f24")
+		(property "Sim.Device" "D"
+			(at 156.21 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 156.21 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "3f76fc79-e2b0-4baf-ab60-b68f22655c50")
+			(uuid "27a8d6c4-125b-4a66-bae8-c37ef8c9c6f1")
+		)
+		(pin "1"
+			(uuid "fe409250-bc41-43fe-8651-cbcb2982077c")
 		)
 		(instances
 			(project "led-dimmer"
 				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
-					(reference "C2")
+					(reference "D2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 39.37 87.63 0)
+		(lib_id "Device:R")
+		(at 63.5 63.5 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4638,30 +4843,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7b695f9-4f00-41d7-be79-7970281c6dee")
-		(property "Reference" "J1"
-			(at 40.005 82.55 0)
+		(uuid "e3e00d19-68c6-4f89-8888-e47b3e9e9a36")
+		(property "Reference" "R1"
+			(at 60.96 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 40.005 85.09 0)
+		(property "Value" "10k"
+			(at 60.96 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "external_footprints:JST_B2B-XH-A"
-			(at 39.37 87.63 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 61.722 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4672,7 +4878,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 87.63 0)
+			(at 63.5 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4682,8 +4888,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 39.37 87.63 0)
+		(property "Description" "Resistor"
+			(at 63.5 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4694,15 +4900,117 @@
 			)
 		)
 		(pin "1"
-			(uuid "1fef057c-3d1b-4216-ae5c-33a60bf20ade")
+			(uuid "68269992-f916-402a-8735-39cd05eb66de")
 		)
 		(pin "2"
-			(uuid "c1903530-c2d7-4e5e-820c-801314bc6b42")
+			(uuid "8c4aec34-e79a-49ea-8acd-32497e7d9c49")
 		)
 		(instances
 			(project "led-dimmer"
 				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
-					(reference "J1")
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 138.43 30.48 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed1a8f33-52a0-4a2b-b33e-e29666b9e81f")
+		(property "Reference" "D1"
+			(at 138.43 36.068 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 138.43 33.782 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 138.43 26.035 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 138.43 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 138.43 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 138.43 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 138.43 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6aacebf8-1ab7-49b0-9b83-be5adc9d56cf")
+		)
+		(pin "1"
+			(uuid "c721f8e4-6ad1-4cf6-aa62-1a411418c239")
+		)
+		(instances
+			(project "led-dimmer"
+				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4710,7 +5018,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 58.42 0)
+		(at 63.5 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4719,9 +5027,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fdd51d0e-794e-4415-a2c7-7fec1787b156")
-		(property "Reference" "#PWR01"
-			(at 30.48 64.77 0)
+		(uuid "fb73ee9f-dd11-4f29-9ca4-76d87d96ec74")
+		(property "Reference" "#PWR03"
+			(at 63.5 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4732,7 +5040,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 63.5 0)
+			(at 63.5 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4742,7 +5050,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 58.42 0)
+			(at 63.5 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4753,7 +5061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 58.42 0)
+			(at 63.5 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4764,7 +5072,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 58.42 0)
+			(at 63.5 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4775,12 +5083,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "228a2090-fa1a-4b8a-abf6-ceb0fc5acf81")
+			(uuid "653e21b4-d9eb-411e-bb95-47142602d685")
 		)
 		(instances
 			(project "led-dimmer"
 				(path "/97f4d0d2-49dd-4867-ad6b-0ece5467e23e"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)

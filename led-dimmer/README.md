@@ -2,7 +2,7 @@
 
 [![License: Apache](https://img.shields.io/badge/license-APACHE-brightgreen.svg?style=for-the-badge)](/LICENSE.md)
 
-**Rev:** 1.4
+**Rev:** 2.0
 
 A compact analog LED dimmer PCB using a 555 timer to generate an adjustable PWM signal that drives a logic-level MOSFET for smooth LED brightness control.
 
@@ -12,11 +12,12 @@ A compact analog LED dimmer PCB using a 555 timer to generate an adjustable PWM 
 
 - **Single-Channel PWM Control:** Adjustable LED brightness
 - **PWM Generator:** NE555 timer based oscillator
-- **Adjustable Brightness:** 50kΩ potentiometer
+- **Adjustable Brightness:** B50kΩ linear potentiometer with integrated SPST switch
+- **On/Off Control:** Integrated potentiometer switch controls the NE555 RESET pin
 - **MOSFET Output Stage:** Logic-level N-channel MOSFET switching
 - **Supply Voltage:** 12V DC input
 - **LED Compatibility:** Suitable for LEDs and LED strips with appropriate current limiting
-- **PCB:** Compact 2-layer layout with ground plane
+- **PCB:** Compact 2-layer layout with ground planes
 - **JST XH Connectors:** 2-pin JST B2B-XH-A connectors for power input and LED output
 - **Bulk Capacitance:** 470µF input capacitor for supply stabilization
 
@@ -24,7 +25,7 @@ A compact analog LED dimmer PCB using a 555 timer to generate an adjustable PWM 
 
 ### PWM Generation
 
-The circuit uses an **NE555 timer configured as an adjustable PWM oscillator**. The duty cycle is controlled using a **50kΩ potentiometer** with two steering diodes that provide separate charge and discharge paths for the timing capacitor.
+The circuit uses an **NE555 timer configured as an adjustable PWM oscillator**. The duty cycle is controlled using a **B50kΩ linear potentiometer** with two steering diodes that provide separate charge and discharge paths for the timing capacitor.
 
 This configuration provides:
 
@@ -33,11 +34,19 @@ This configuration provides:
 - Consistent LED brightness control without varying the LED supply voltage
 - Simple analog control without requiring a microcontroller
 
+### On/Off Control
+
+An integrated **SPST switch in the brightness potentiometer** provides convenient on/off control without requiring a separate switch.
+
+The switch controls the NE555's **RESET pin (pin 4)** through a 10kΩ resistor. When the timer is held in reset, PWM generation stops, disabling the MOSFET drive and turning off the LED output.
+
+This provides on/off control while retaining the analog PWM dimming circuit.
+
 ### Output Stage
 
 The PWM signal from the NE555 drives the gate of an **IRLML6344 logic-level N-channel MOSFET** through a gate resistor.
 
- The MOSFET operates as a **low-side switch**, connecting and disconnecting the LED load from ground according to the PWM duty cycle.
+The MOSFET operates as a **low-side switch**, connecting and disconnecting the LED load's return path to ground according to the PWM duty cycle.
 
 A gate pull-down resistor ensures that the MOSFET remains off when the PWM signal is not actively driving the gate.
 
@@ -81,20 +90,25 @@ LEDs must include appropriate **current limiting resistors** unless the connecte
 - **PWM Channels:** 1
 - **Control Method:** Analog PWM dimming
 - **PWM Generator:** NE555 timer
-- **Brightness Control:** 50kΩ potentiometer
+- **Brightness Control:** B50kΩ linear potentiometer
+- **On/Off Control:** Integrated SPST switch connected to NE555 RESET (pin 4) through a 10kΩ resistor
 - **Switching Device:** IRLML6344 logic-level N-channel MOSFET
 - **Bulk Supply Capacitor:** 470µF
 
 ## Key Components
 
-- **U1:** NE555 Timer IC (PWM generator)
+- **U1:** NE555 timer IC (PWM generator)
 - **Q1:** IRLML6344 N-channel MOSFET (LED switching)
-- **R3:** 50kΩ potentiometer (PWM duty-cycle / brightness control)
-- **D1–D2:** Signal diodes (PWM steering network)
-- **C1:** 0.1µF timing capacitor
-- **C2:** 10nF 555 control-voltage bypass capacitor
-- **C3:** 470µF bulk supply capacitor
-- **C4:** 0.1µF supply decoupling capacitor
+- **R1:** 10kΩ resistor (NE555 RESET pin circuit)
+- **R2:** 1kΩ resistor
+- **R3:** 1kΩ resistor
+- **R4:** C18213428 B50kΩ linear potentiometer with integrated SPST switch (brightness control and on/off switching)
+- **R5:** 100kΩ resistor (MOSFET gate pull-down)
+- **D1–D2:** 1N4148W signal diodes (PWM steering network)
+- **C1:** 470µF bulk supply capacitor
+- **C2:** 0.1µF supply decoupling capacitor
+- **C3:** 10nF control-voltage bypass capacitor
+- **C4:** 0.1µF timing capacitor
 - **J1:** 2-pin JST B2B-XH-A power input connector
 - **J2:** 2-pin JST B2B-XH-A LED output connector
 

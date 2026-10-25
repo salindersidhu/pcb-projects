@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "external_footprints") (type "KiCad") (uri "${KIPRJMOD}/libs/external/footprints") (options "") (descr ""))
 	(lib (name "sal_footprints") (type "KiCad") (uri "${KIPRJMOD}/libs/sal/footprints") (options "") (descr ""))
+	(lib (name "lcsc_footprints") (type "KiCad") (uri "${KIPRJMOD}/libs/lcsc/footprints.pretty") (options "") (descr "LCSC Manager imported footprints"))
 )
